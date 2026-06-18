@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Events | Inner Space</title>
+  <meta name="description" content="Upcoming meditation classes, advanced practice sessions, workshops, and retreats at Inner Space." />
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 32 32%22><circle cx=%2216%22 cy=%2216%22 r=%228%22 fill=%22%23E7BD7A%22/></svg>" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,300;9..144,400;9..144,500&family=Work+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+
+  <!-- ===== Header ===== -->
+  <header class="site-header">
+    <nav class="nav">
+      <a href="index.html" class="nav-brand">
+        <span class="glow-mark"></span>
+        Inner Space
+      </a>
+      <button class="nav-toggle" aria-label="Open menu" aria-expanded="false">&#9776;</button>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="events.html" aria-current="page">Events</a></li>
+        <li><a href="blog.html">Blog</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li class="nav-cta"><a href="contact.html" class="btn btn-ghost">Book a Session</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- ===== Page header ===== -->
+  <section class="page-header on-dark">
+    <div class="wrap">
+      <span class="eyebrow">Events &amp; Classes</span>
+      <h1 class="text-balance">Find a class, workshop, or retreat</h1>
+      <p class="lede">Regular weekly classes for building practice, advanced sessions for going deeper, and periodic workshops and retreats &mdash; in person and online.</p>
+    </div>
+  </section>
+
+  <!-- ===== Events list ===== -->
+  <section class="section">
+    <div class="wrap">
+
+      <div class="filter-bar">
+        <button class="filter-btn active" data-filter="all">All</button>
+        <button class="filter-btn" data-filter="class">Weekly Classes</button>
+        <button class="filter-btn" data-filter="advanced">Advanced Practice</button>
+        <button class="filter-btn" data-filter="retreat">Workshops &amp; Retreats</button>
+        <button class="filter-btn" data-filter="online">Online</button>
+      </div>
+
+      <div class="card-list">
+
+        <div class="event-card" data-category="class">
+          <div class="event-date"><span class="day">08</span><span class="month">Jul</span></div>
+          <div class="event-body">
+            <span class="event-tag">Weekly Class</span>
+            <h3>Foundations of Stillness</h3>
+            <p>A grounding weekly class for building a steady meditation practice &mdash; suitable for beginners and as a refresher for returning students.</p>
+            <p class="event-meta">Tuesdays &amp; Thursdays, 7:00&ndash;8:15 PM &middot; Inner Space Studio &middot; Drop-ins welcome</p>
+          </div>
+          <div class="event-action"><a href="contact.html" class="btn btn-outline">Reserve a spot</a></div>
+        </div>
+
+        <div class="event-card" data-category="online">
+          <div class="event-date"><span class="day">12</span><span class="month">Jul</span></div>
+          <div class="event-body">
+            <span class="event-tag">Online Class</span>
+            <h3>Evening Sit &mdash; Live Online</h3>
+            <p>A guided sitting practice held over video call, followed by a short Q&amp;A. Recordings are not shared, so practice happens together, in real time.</p>
+            <p class="event-meta">Sundays, 6:30&ndash;7:30 PM IST &middot; Online via video call</p>
+          </div>
+          <div class="event-action"><a href="contact.html" class="btn btn-outline">Reserve a spot</a></div>
+        </div>
+
+        <div class="event-card" data-category="advanced">
+          <div class="event-date"><span class="day">19</span><span class="month">Jul</span></div>
+          <div class="event-body">
+            <span class="event-tag">Advanced Practice</span>
+            <h3>Working with the Energy Body</h3>
+            <p>A six-week closed group for students with an established practice, focused on subtler awareness of the energy body, breath, and inner states.</p>
+            <p class="event-meta">Saturdays, 9:00&ndash;11:00 AM &middot; Inner Space Studio &middot; By application</p>
+          </div>
+          <div class="event-action"><a href="contact.html" class="btn btn-outline">Apply / Enquire</a></div>
+        </div>
+
+        <div class="event-card" data-category="retreat">
+          <div class="event-date"><span class="day">23</span><span class="month">Aug</span></div>
+          <div class="event-body">
+            <span class="event-tag">Weekend Retreat</span>
+            <h3>The Three Spaces &mdash; Mind, Energy, Heart</h3>
+            <p>A weekend retreat exploring the three spaces at the heart of the practice, with extended sitting periods, teaching sessions, and quiet time.</p>
+            <p class="event-meta">Friday evening &ndash; Sunday afternoon &middot; In-person, limited to 16 participants</p>
+          </div>
+          <div class="event-action"><a href="contact.html" class="btn btn-outline">Reserve a spot</a></div>
+        </div>
+
+        <div class="event-card" data-category="retreat">
+          <div class="event-date"><span class="day">14</span><span class="month">Sep</span></div>
+          <div class="event-body">
+            <span class="event-tag">Workshop</span>
+            <h3>Introduction to Ancient Practices</h3>
+            <p>A one-day workshop introducing the philosophy and practices that form the foundation of the work at Inner Space &mdash; ideal for newcomers.</p>
+            <p class="event-meta">Sunday, 10:00 AM&ndash;4:00 PM &middot; Inner Space Studio &middot; Includes lunch</p>
+          </div>
+          <div class="event-action"><a href="contact.html" class="btn btn-outline">Reserve a spot</a></div>
+        </div>
+
+      </div>
+
+      <p class="form-note mt-lg">
+        Replace these placeholder events with your own dates, times, and descriptions. To take registrations or payments, you can link the "Reserve a spot" buttons to a simple booking form (such as a free Google Form) or to your contact page.
+      </p>
+    </div>
+  </section>
+
+  <!-- ===== Footer ===== -->
+  <footer class="site-footer">
+    <div class="wrap">
+      <div class="newsletter">
+        <div>
+          <h3>Stay close to the practice</h3>
+          <p>Occasional notes on classes, workshops, and reflections &mdash; no spam, ever.</p>
+        </div>
+        <form class="newsletter-form" action="#" method="post">
+          <label for="newsletter-email" class="sr-only" style="position:absolute;left:-9999px;">Email address</label>
+          <input id="newsletter-email" type="email" name="email" placeholder="Your email address" required />
+          <button type="submit" class="btn btn-primary">Subscribe</button>
+        </form>
+      </div>
+      <div class="footer-grid">
+        <div>
+          <div class="footer-brand"><span class="glow-mark"></span> Inner Space</div>
+          <p>A space for deeper exploration &mdash; meditation, advanced practice, and workshops rooted in ancient wisdom.</p>
+        </div>
+        <div>
+          <h4>Explore</h4>
+          <ul>
+            <li><a href="about.html">About</a></li>
+            <li><a href="events.html">Events</a></li>
+            <li><a href="blog.html">Blog</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Contact</h4>
+          <ul>
+            <li><a href="mailto:hello@innerspace.example">hello@innerspace.example</a></li>
+            <li><a href="tel:+910000000000">+91 00000 00000</a></li>
+            <li>Hubballi, Karnataka, India</li>
+          </ul>
+        </div>
+        <div>
+          <h4>Follow</h4>
+          <ul>
+            <li><a href="#">Instagram</a></li>
+            <li><a href="#">YouTube</a></li>
+            <li><a href="#">WhatsApp Community</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>&copy; 2026 Inner Space. All rights reserved.</span>
+        <span>Site by you, with a little help.</span>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
